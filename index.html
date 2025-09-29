@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Саби Нур Садик</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo"> <i class="fas fa-school"></i> Sabi Nur</a>
+
+      <nav class="navbar">
+        <a href="#home" data-lang="home">Главная</a>
+        <a href="#about" data-lang="about">О нас</a>
+        <a href="#education" data-lang="edu">Обучение</a>
+        <a href="#teacher" data-lang="col">Коллектив</a>
+        <a href="#gallery" data-lang="gal">Галерея</a>
+        <a href="#contact" data-lang="con">Контакт</a>
+
+        <!-- Тек мобильді версияда көрсетіледі -->
+        <div class="lang-buttons mobile-lang">
+          <button onclick="changeLanguage('KZ')">KZ</button>
+          <button onclick="changeLanguage('RU')">RU</button>
+        </div>
+      </nav>
+
+      <!-- Тек десктопта көрсетіледі -->
+      <div class="lang-buttons desktop-lang">
+        <button onclick="changeLanguage('KZ')">KZ</button>
+        <button onclick="changeLanguage('RU')">RU</button>
+      </div>
+
+      <div id="menu-btn" class="fas fa-bars"></div>
+    </header>
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3 data-lang="do" data-first-span="true">
+          Добро пожаловать в наш <span>Детский сад Сабинур</span>
+        </h3>
+        <p data-lang="po">
+          Детский сад «Сабинур» — это место, где дети растут в атмосфере заботы,
+          радости и любви. Здесь они учатся, играют и открывают для себя новые
+          горизонты каждый день.
+        </p>
+        <a href="#" class="btn" data-lang="lo">Узнать больше</a>
+      </div>
+
+      <div class="image">
+        <img src="images/home.png" alt="" />
+      </div>
+
+      <div class="custom-shape-divider-bottom-1684324473">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h1 data-lang="abou" data-first-span="true" class="heading">
+        <span>о</span> нас
+      </h1>
+
+      <div class="row">
+        <div class="image">
+          <div class="image ishi">
+            <img src="./img/syrty.jpeg" alt="О нас" />
+          </div>
+          <div class="image syrty"><img src="img/ishi.jpeg" alt="О нас" /></div>
+        </div>
+
+        <div class="content">
+          <h3 data-lang="is">Исследуем, растем и развиваемся вместе</h3>
+          <p data-lang="sab">
+            Детский сад «Сабинур» — это уютное и безопасное место, где каждый
+            ребенок чувствует заботу, внимание и поддержку. Своих маленьких
+            воспитанников «Сабинур» принял 15 ноября 2018 года и с тех пор
+            открывает двери ежедневно с 8:00 до 18:30. Мы стремимся создать
+            атмосферу, в которой дети с радостью учатся новому, раскрывают свои
+            таланты и развиваются в гармонии.
+          </p>
+          <p data-lang="mis">
+            Наша миссия — помочь детям расти счастливыми, любознательными и
+            уверенными в себе личностями. Мы верим, что раннее развитие играет
+            важнейшую роль в будущем, и поэтому предлагаем образовательные
+            программы, сочетающие обучение и игру.
+          </p>
+          <!-- <a href="#" class="btn">Подробнее</a> -->
+        </div>
+      </div>
+    </section>
+
+    <section class="education" id="education">
+      <h1 data-lang="ob" data-first-span="true"  class="heading">наше <span> обучение</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <h3 data-lang="uro">Уроки музыки</h3>
+          <p data-lang="n">
+            В «Сабинур» дети знакомятся с миром музыки: поют, играют на простых
+            инструментах и развивают слух, ритм и творческое воображение.
+          </p>
+          <img src="images/education1.png" alt="Уроки музыки" />
+        </div>
+
+        <div class="box">
+          <h3 data-lang="za">Занятия спортом</h3>
+          <p data-lang="j">
+            Мы уделяем внимание физическому развитию: игры на свежем воздухе,
+            спортивные упражнения и весёлые эстафеты укрепляют здоровье и дарят
+            детям радость движения.
+          </p>
+          <img src="images/education2.png" alt="Занятия спортом" />
+        </div>
+
+        <div class="box">
+          <h3 data-lang="tr">Уроки рисования</h3>
+          <p data-lang="tv">
+            Творчество — важная часть обучения. На уроках рисования дети учатся
+            выражать свои чувства и идеи с помощью красок, карандашей и
+            аппликаций.
+          </p>
+          <img src="images/education3.png" alt="Уроки рисования" />
+        </div>
+      </div>
+    </section>
+
+    <section class="ex">
+      <div class="product-container">
+        <div class="product-details">
+          <h1 class="des" data-lang="i">
+            В детском саду «Сабинур» каждое мероприятие дарит детям радость и
+            развивает их воображение!
+          </h1>
+          <p class="description" data-lang="o">
+            В детском саду «Сабинур» для каждого ребенка есть особые
+            возможности. Здесь работают логопед, хореограф и преподаватель
+            английского языка. Каждое занятие — это дверь к развитию, радости и
+            новым знаниям. В нашем саду ваш ребенок не только учится, но и
+            чувствует себя в особой атмосфере.
+          </p>
+        </div>
+
+        <div class="product-gallery">
+          <div class="main-image">
+            <img src="./IMG_9591.jpg" alt="New" />
+          </div>
+          <div class="thumbnail-container">
+            <div class="thumbnails">
+              <img
+                src="./imgg/WhatsApp Image 2025-09-24 at 21.35.22.jpeg"
+                alt="Product view 1"
+                class="active"
+              />
+              <img
+                src="./imgg/WhatsApp Image 2025-09-26 at 09.37.05.jpeg"
+                alt="Product view 2"
+              />
+              <img
+                src="./imgg/WhatsApp Image 2025-09-24 at 22.59.21.jpeg"
+                alt="Product view 3"
+              />
+              <img
+                src="./imgg/WhatsApp Image 2025-09-24 at 22.59.15.jpeg"
+                alt="Product view 4"
+              />
+              <img
+                src="./imgg/WhatsApp Image 2025-09-24 at 22.59.16 (1).jpeg"
+                alt="Product view 5"
+              />
+              <img
+                src="./imgg/WhatsApp Image 2025-09-24 at 22.59.20.jpeg"
+                alt="Product view 5"
+              />
+              <img
+                src="./imgg/WhatsApp Image 2025-09-26 at 09.58.09.jpeg"
+                alt="Product view 5"
+              />
+              <img
+                src="./imgg/WhatsApp Image 2025-09-26 at 09.58.13.jpeg"
+                alt="Product view 5"
+              />
+              <img
+                src="./imgg/WhatsApp Image 2025-09-26 at 09.58.14.jpeg"
+                alt="Product view 5"
+              />
+              <img
+                src="./imgg/WhatsApp Image 2025-09-26 at 09.58.15.jpeg"
+                alt="Product view 5"
+              />
+              <img
+                src="./imgg/WhatsApp Image 2025-09-26 at 09.58.20.jpeg"
+                alt="Product view 5"
+              />
+              <img
+                src="./imgg/WhatsApp Image 2025-09-26 at 10.01.56.jpeg"
+                alt="Product view 5"
+              />
+              <img
+                src="./imgg/WhatsApp Image 2025-09-26 at 10.01.58.jpeg"
+                alt="Product view 5"
+              />
+              <img
+                src="./imgg/WhatsApp Image 2025-09-24 at 21.35.20 (1).jpeg"
+                alt="Product view 5"
+              />
+              <img
+                src="./imgg/WhatsApp Image 2025-09-24 at 22.59.19.jpeg"
+                alt="Product view 5"
+              />
+              <img
+                src="./imgg/photo_2025-09-25 12.32.40.jpeg"
+                alt="Product view 5"
+              />
+              <img
+                src="./imgg/WhatsApp Image 2025-09-24 at 22.59.18.jpeg"
+                alt="Product view 5"
+              />
+              <img
+                src="./imgg/photo_2025-09-25 12.33.06.jpeg"
+                alt="Product view 5"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="teacher" id="teacher">
+      <h1 data-lang="coll" data-first-span="true"  class="heading">наш <span> коллектив</span></h1>
+
+      <div class="container">
+        <div class="info">
+          <h2 id="main-name"></h2>
+          <h4 id="main-title"></h4>
+          <p id="main-desc"></p>
+        </div>
+        <div class="photo">
+          <img id="main-img" src="" alt="Main Photo" />
+        </div>
+      </div>
+
+      <div class="thumbnails" id="thumbs"></div>
+    </section>
+
+    <section class="gallery" id="gallery">
+      <h1 data-lang="gall" data-first-span="true" class="heading">
+        Наша <span>Галерея</span>
+      </h1>
+
+      <div class="gallery-container">
+        <a href="./img/photo_2025-09-25 12.32.46.jpeg" class="box">
+          <img src="./img/photo_2025-09-25 12.32.46.jpeg" alt="" />
+          <div class="icon"><i class="fas fa-plus"></i></div>
+        </a>
+
+        <a href="./img/photo_2025-09-25 12.32.49.jpeg" class="box">
+          <img src="./img/photo_2025-09-25 12.32.49.jpeg" alt="" />
+          <div class="icon"><i class="fas fa-plus"></i></div>
+        </a>
+
+        <a href="./img/photo_2025-09-25 12.33.01.jpeg" class="box">
+          <img src="./img/photo_2025-09-25 12.33.01.jpeg" alt="" />
+          <div class="icon"><i class="fas fa-plus"></i></div>
+        </a>
+        <a
+          href="./img/WhatsApp Image 2025-09-24 at 21.35.20 (2).jpeg"
+          class="box"
+        >
+          <img
+            src="./img/WhatsApp Image 2025-09-24 at 21.35.20 (2).jpeg"
+            alt=""
+          />
+          <div class="icon"><i class="fas fa-plus"></i></div>
+        </a>
+
+        <a href="./img/WhatsApp Image 2025-09-24 at 21.35.21.jpeg" class="box">
+          <img src="./img/WhatsApp Image 2025-09-24 at 21.35.21.jpeg" alt="" />
+          <div class="icon"><i class="fas fa-plus"></i></div>
+        </a>
+
+        <a
+          href="./img/WhatsApp Image 2025-09-24 at 22.59.17 (1).jpeg"
+          class="box"
+        >
+          <img
+            src="./img/WhatsApp Image 2025-09-24 at 22.59.17 (1).jpeg"
+            alt=""
+          />
+          <div class="icon"><i class="fas fa-plus"></i></div>
+        </a>
+
+        <a
+          href="./img/WhatsApp Image 2025-09-24 at 22.59.19 (1).jpeg"
+          class="box"
+        >
+          <img
+            src="./img/WhatsApp Image 2025-09-24 at 22.59.19 (1).jpeg"
+            alt=""
+          />
+          <div class="icon"><i class="fas fa-plus"></i></div>
+        </a>
+
+        <a href="./img/photo_2025-09-25 12.32.58 2.jpeg" class="box">
+          <img src="./img/photo_2025-09-25 12.32.58 2.jpeg" alt="" />
+          <div class="icon"><i class="fas fa-plus"></i></div>
+        </a>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <h1 data-lang="sx" data-first-span="true" class="heading"><span>свяжитесь</span> с нами</h1>
+
+      <div class="icons-container">
+        <div class="icons">
+          <i class="fas fa-clock"></i>
+          <h3 data-lang="ra">Часы работы :</h3>
+          <p data-lang="ui">Пн – Пт : 08:00 до 18:30</p>
+        </div>
+
+        <div class="icons">
+          <i class="fas fa-map-marker-alt"></i>
+          <h3>Локация</h3>
+          <p>2 переулок Ы.Сулейменова 7, Тараз</p>
+        </div>
+
+        <div class="icons">
+          <i class="fas fa-phone"></i>
+          <h3>Телефон</h3>
+          <p>+7 (705) 737-58-18</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="image">
+          <img src="images/contact.gif" alt="Контакты" />
+        </div>
+        <form id="form" action="">
+          <h3 data-lang="loc">Напишите нам</h3>
+          <div class="inputBox">
+            <input type="text" name="Name" placeholder="Ваше имя" />
+            <input type="email" name="Email" placeholder="Ваш email" />
+          </div>
+          <div class="inputBox">
+            <input
+              type="tel"
+              id="phone"
+              name="Phone"
+              placeholder="Ваш номер телефона"
+            />
+
+            <input type="text" name="Subject" placeholder="Тема сообщения" />
+          </div>
+          <textarea
+            name="Message"
+            placeholder="Ваше сообщение"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <input type="submit" value="Отправить сообщение" class="btn" />
+        </form>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3><i class="fas fa-school"></i> Ясли сад Саби Нур</h3>
+          <p data-lang="iop">
+            Добро пожаловать в наш детский сад «Сабинур» – место, где дети
+            растут, учатся и играют в атмосфере заботы и тепла.
+          </p>
+        </div>
+
+        <div class="box">
+          <h3 data-lang="tyu">Быстрые ссылки</h3>
+          <a
+            href="https://www.instagram.com/sabinur_sadik?igsh=ZG5tdWt0cnJpMnVr"
+            ><img
+              src="./img/instagram.png"
+              alt="Instagram"
+              data-lang="gt"
+              width="19px"
+            /><i class="fas fa-caret-right"></i> Записаться сейчас</a
+          >
+          <a href="https://wa.me/+77057375818"
+            ><img
+              src="./img/icons8-whatsapp-logo-50.png"
+              alt="Instagram"
+              data-lang="gt"
+              width="20px"
+            /><i class="fas fa-caret-right"></i> Записаться сейчас</a
+          >
+          <a href="tel:+77057375818"
+            ><img
+              src="./img/icons8-phone-50.png"
+              alt="Instagram"
+              width="20px"
+              data-lang="gt"
+            /><i class="fas fa-caret-right"></i> Записаться сейчас</a
+          >
+        </div>
+
+        <div class="box">
+          <h3>Категории</h3>
+          <a href="#home" data-lang="home">
+            <i class="fas fa-caret-right"></i> Главная</a
+          >
+          <a href="#about" data-lang="about">
+            <i class="fas fa-caret-right"></i> О нас</a
+          >
+          <a href="#education" data-lang="edu">
+            <i class="fas fa-caret-right"></i> Обучение</a
+          >
+        </div>
+        <div class="box">
+          <h3>Категории</h3>
+          <a href="#teacher" data-lang="col">
+            <i class="fas fa-caret-right"></i> Коллектив</a
+          >
+          <a href="#gallery" data-lang="gal">
+            <i class="fas fa-caret-right"></i> Галерея</a
+          >
+          <a href="#contact" data-lang="con">
+            <i class="fas fa-caret-right"></i> Контакт</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/lang.js"></script>
+    <script src="./js/thumb.js"></script>
+    <script src="./js/contact.js"></script>
+
+    <script>
+      lightGallery(document.querySelector(".gallery .gallery-container"));
+    </script>
+  </body>
+</html>
