@@ -1040,3 +1040,39 @@ h1 {
   padding: 0;
   overflow: hidden;
 }
+.pdf-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 24px;
+}
+
+.pdf-box {
+  background: #fff;
+  padding: 16px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.pdf-box h3 {
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+.pdf-box embed {
+  width: 100%;
+  height: 220px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.pdf-box a {
+  display: inline-block;
+  margin-top: 6px;
+  text-decoration: none;
+  background: #003049;
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 14px;
+}
